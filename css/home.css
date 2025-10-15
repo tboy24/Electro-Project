@@ -278,7 +278,7 @@ body {
   background: url("../Images/Woman\ pointing.jpg") right center / cover no-repeat;
 }
 
-.badge {
+.save {
   position: absolute;
   top: 18px;
   left: 18px;
@@ -286,7 +286,10 @@ body {
   color: #fff;
   font-weight: 800;
   padding: 14px 28px;
-  border-radius: 8px;
+  border-radius: 50%;
+  height: 5rem;
+  width: 5rem;
+  padding-left: 1rem;
 }
 
 .special {
@@ -317,7 +320,7 @@ body {
 }
 
 .name {
-  color: #fff;
+  color: rgba(223, 211, 211, 0.75);
   font-size: 36px;
   line-height: 1.2;
   font-weight: 400;
@@ -333,7 +336,7 @@ body {
 }
 
 .old {
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(223, 211, 211, 0.75);
   text-decoration: line-through;
   margin-right: 10px;
 }
@@ -561,7 +564,7 @@ body {
   border-radius: 10px;
   padding: 20px;
   width: 550px;
-  height: 225px;
+  height: 280px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 
 
@@ -691,10 +694,16 @@ h3 {
 
 .badge.new {
   background: #f28b00;
+  border-radius: 50%;
+  height: 3.5rem;
+  width: 3.5rem;
 }
 
 .badge.sale {
   background: #f92400;
+  border-radius: 50%;
+  height: 3.5rem;
+  width: 3.5rem;
 }
 
 :root {
@@ -822,6 +831,7 @@ body {
   font-size: 18px;
   margin-bottom: 5px;
   margin-left: 18rem;
+  padding-left: 20rem;
 }
 
 .section-subtitle::after {
@@ -965,7 +975,7 @@ body {
 .card {
   display: flex;
   border: 1px solid #ddd;
-  height: 180px;
+  height: 280px;
 }
 
 .card-image {

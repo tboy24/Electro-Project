@@ -1,0 +1,295 @@
+.contact-section {
+  background: #f7f7f7;
+  padding: 60px 0;
+  font-family: Arial, sans-serif;
+}
+
+.contact-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.contact-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.get-in-touch {
+  display: inline-block;
+  color: #ff7a00;
+  font-weight: 700;
+  padding-bottom: 8px;
+  position: relative;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+}
+
+.get-in-touch::after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 60px;
+  background: #ff7a00;
+  margin: 8px auto 0;
+  border-radius: 2px;
+}
+
+.get-desc {
+  color: #6b6b6b;
+  font-size: 13px;
+  margin-top: 8px;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.contact-left {
+  width: 60%;
+}
+
+.subtitle {
+  color: #ff6600;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.title {
+  font-size: 26px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.desc {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.desc a {
+  color: #ff6600;
+  text-decoration: none;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-row {
+  display: flex;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #d6d6d6;
+  border-radius: 5px;
+  font-size: 14px;
+  background: #fafafa;
+}
+
+.contact-form textarea {
+  height: 100px;
+  resize: none;
+}
+
+.contact-form button {
+  background: #ff7a00;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.contact-form button:hover {
+  background: #e66900;
+}
+
+.contact-right {
+  width: 35%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.contact-right img {
+  width: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.info-box {
+  width: 200px;
+}
+
+.info-box i {
+  color: #ff3300;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.info-box h4 {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.info-box p {
+  font-size: 14px;
+  color: #666;
+}
+
+.footer {
+  background: #333;
+  color: #fff;
+  padding: 40px 20px;
+  width: 100%;
+  margin-bottom: -6rem;
+  margin-top: 6rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.footer-top {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  background: #444;
+  padding: 30px 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+.footer-item {
+  text-align: center;
+  color: #fff;
+}
+.footer-item i {
+  font-size: 28px;
+  color: #fff;
+  background: #f92400;
+  padding: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+.footer-item h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+.footer-item p {
+  margin: 5px 0 0;
+  color: #aaa;
+  font-size: 15px;
+}
+
+.footer-bottom {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  padding: 0 5rem;
+}
+.footer-col h4 {
+  color: #ff8000;
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.footer-col p {
+  color: #aaa;
+  font-size: 15px;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-col ul li {
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 18px;
+}
+.footer-col ul li::before {
+  content: "›";
+  position: absolute;
+  left: 0;
+  color: #aaa;
+}
+.footer-col ul li a {
+  text-decoration: none;
+  color: #aaa;
+  font-size: 15px;
+}
+.footer-col ul li a:hover {
+  color: #ff8000;
+}
+
+.newsletter {
+  display: flex;
+  background: white;
+  border-radius: 50px;
+  overflow: hidden;
+  max-width: 320px;
+}
+.newsletter input {
+  border: none;
+  padding: 12px 15px;
+  flex: 1;
+  outline: none;
+  font-size: 15px;
+}
+.newsletter button {
+  background: #ff8000;
+  border: none;
+  color: white;
+  padding: 12px 25px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 0 50px 50px 0;
+}
+
+.footer-copyright {
+  background: #ff8000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  font-size: 14px;
+  margin-top: 90px;
+}
+.footer-copyright a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 30px;
+}

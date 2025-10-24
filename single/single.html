@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Electro </title>
-  <link rel="stylesheet" href="/css/home.css">
+  <link rel="stylesheet" href="/css/nav.css">
   <link rel="stylesheet" href="/css/single.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
@@ -42,9 +42,7 @@
       <i class="fa fa-bars"></i> All Categories
     </div>
 
-    <div class="hamburger">
-      <i class="fa fa-bars"></i>
-    </div>
+
 
     <ul class="menu">
       <li><a href="/home.html/index.html" class="active">Home</a></li>
@@ -59,7 +57,7 @@
           <li><a href="#">404 Page</a></li>
         </ul>
       </li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="/contact/contact.html">Contact</a></li>
       <div class="call-btn">
         <i class="fa fa-phone"></i> +0123 456 7890
       </div>
@@ -69,85 +67,83 @@
 
 
 <div class="container">
-    <aside class="sidebar">
-      <div class="search-bar">
-        <input type="text" placeholder="keywords">
-        <button><i class="fa fa-search"></i></button>
-      </div>
+  <div class="sidebar">
+    <div class="search-box">
+      <input type="text" placeholder="keywords">
+      <button><i class="fa fa-search"></i></button>
+    </div>
 
-      <h2>Products Categories</h2>
-      <ul class="categories">
-        <li><i class="fa fa-apple"></i> Accessories <span>(3)</span></li>
-        <li><i class="fa fa-apple"></i> Electronics & Computer <span>(5)</span></li>
-        <li><i class="fa fa-apple"></i> Laptops & Desktops <span>(2)</span></li>
-        <li><i class="fa fa-apple"></i> Mobiles & Tablets <span>(8)</span></li>
-        <li><i class="fa fa-apple"></i> SmartPhone & Smart TV <span>(5)</span></li>
-      </ul>
+    <h3>Products Categories</h3>
+    <ul class="categories">
+      <li><i class="fa fa-apple"></i> Accessories <span>(3)</span></li>
+      <li><i class="fa fa-apple"></i> Electronics & Computer <span>(5)</span></li>
+      <li><i class="fa fa-apple"></i> Laptops & Desktops <span>(2)</span></li>
+      <li><i class="fa fa-apple"></i> Mobiles & Tablets <span>(8)</span></li>
+      <li><i class="fa fa-apple"></i> SmartPhone & Smart TV <span>(5)</span></li>
+    </ul>
 
-      <h2>Select By Color</h2>
-      <div class="color-options">
-        <label><input type="radio" name="color"> Gold</label>
-        <label><input type="radio" name="color"> Green</label>
-        <label><input type="radio" name="color"> White</label>
-      </div>
-    </aside>
-
-    <main class="product-section">
-      <div class="product-image-section">
-        <div class="main-image">
-          <img src="/home.html/images/Camera 2.png" alt="Smart Camera">
-        </div>
-        <div class="image-arrows">
-          <i class="fa fa-arrow-left"></i>
-          <i class="fa fa-arrow-right"></i>
-        </div>
-        <div class="thumbnails">
-          <img src="/home.html/images/Camera 2.png" alt="">
-          <img src="/home.html/images/lense.png" alt="">
-          <img src="/home.html/images/Small Camera.png" alt="">
-          <img src="/home.html/images/Small Phone.png" alt="">
-        </div>
-      </div>
-
-      <div class="product-info">
-        <h1>Smart Camera</h1>
-        <p class="category">Category: Electronics</p>
-        <h2 class="price">3,35 $</h2>
-
-        <div class="stars">
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star-half-alt"></i>
-        </div>
-
-        <div class="share-buttons">
-          <button class="orange"><i class="fa fa-share"></i> Share</button>
-          <button class="red"><i class="fa-brands fa-twitter"></i> Share</button>
-        </div>
-
-        <p class="sku">Product SKU: N/A</p>
-        <p class="stock">Available: <span>20 items in stock</span></p>
-
-        <p class="desc">
-          The generated Lorem Ipsum is therefore always free from repetition injected humour, or non-characteristic words etc.
-        </p>
-
-        <p class="extra">
-          Susp endisse ultricies nisi vel quam suscipit. Sabertooth peacock flounder; chain pickerel hatchetfish, pencilfish snailfish
-        </p>
-
-        <div class="quantity">
-          <button>-</button>
-          <span>1</span>
-          <button>+</button>
-        </div>
-
-        <button class="cart-btn"><i class="fa fa-lock"></i> Add to cart</button>
-      </div>
-    </main>
+    <h3>Select By Color</h3>
+    <ul class="colors">
+      <li><input type="radio" name="color"> Gold</li>
+      <li><input type="radio" name="color"> Green</li>
+      <li><input type="radio" name="color"> White</li>
+    </ul>
   </div>
+
+  <div class="main-product">
+    <div class="product-display">
+      <div class="product-view">
+        <div class="arrow left"><i class="fa fa-arrow-left"></i></div>
+        <img src="" alt="Smart Camera">
+        <div class="arrow right"><i class="fa fa-arrow-right"></i></div>
+      </div>
+
+      <div class="thumbnail-row">
+        <div class="thumb"><img src=""></div>
+        <div class="thumb active"><img src=""></div>
+        <div class="thumb"><img src=""></div>
+        <div class="thumb"><img src=""></div>
+      </div>
+    </div>
+
+    <div class="product-info">
+      <h2>Smart Camera</h2>
+      <p class="category">Category: <span>Electronics</span></p>
+      <h3 class="price">3,35 $</h3>
+      <div class="stars">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-alt"></i>
+      </div>
+
+      <div class="share-buttons">
+        <button class="facebook"><i class="fa-brands fa-facebook-f"></i> Share</button>
+        <button class="twitter"><i class="fa-brands fa-twitter"></i> Share</button>
+      </div>
+
+      <p class="sku">Product SKU: N/A</p>
+      <p class="stock">Available: <span>20 items in stock</span></p>
+
+      <p class="desc">
+        The generated Lorem Ipsum is therefore always free from repetition injected humour,
+        or non-characteristic words etc.
+      </p>
+      <p class="extra">
+        Susp endisse ultricies nisi vel quam suscipit. Sabertooth peacock flounder; chain pickerel hatchetfish, pencilfish snailfish
+      </p>
+
+      <div class="quantity">
+        <button><i class="fa fa-minus"></i></button>
+        <span>1</span>
+        <button><i class="fa fa-plus"></i></button>
+      </div>
+
+      <button class="add-to-cart"><i class="fa fa-cart-shopping"></i> Add to cart</button>
+    </div>
+  </div>
+</div>
 
 
 
@@ -157,7 +153,7 @@
       <h2>Featured products</h2>
 
       <div class="product">
-        <img src="img1.jpg" alt="SmartPhone">
+        <img src="/home.html/images/Small Phone.png" alt="SmartPhone">
         <div class="details">
           <h4>SmartPhone</h4>
           <div class="stars">⭐⭐⭐⭐☆</div>
@@ -166,7 +162,7 @@
       </div>
 
       <div class="product">
-        <img src="img2.jpg" alt="Smart Camera">
+        <img src="/home.html/images/Camera.png" alt="Smart Camera">
         <div class="details">
           <h4>Smart Camera</h4>
           <div class="stars">⭐⭐⭐⭐☆</div>
@@ -175,7 +171,7 @@
       </div>
 
       <div class="product">
-        <img src="img3.jpg" alt="Smart Camera">
+        <img src="/home.html/images/lense.png" alt="Smart Camera">
         <div class="details">
           <h4>Smart Camera</h4>
           <div class="stars">⭐⭐⭐⭐☆</div>
@@ -184,7 +180,7 @@
       </div>
 
       <div class="product">
-        <img src="img4.jpg" alt="Smart Camera">
+        <img src="/home.html/images/Small Camera.png" alt="Smart Camera">
         <div class="details">
           <h4>Smart Camera</h4>
           <div class="stars">⭐⭐⭐⭐☆</div>
@@ -193,7 +189,7 @@
       </div>
 
       <div class="product">
-        <img src="img5.jpg" alt="Camera Leance">
+        <img src="/home.html/images/Camera 2.png" alt="Camera Leance">
         <div class="details">
           <h4>Camera Leance</h4>
           <div class="stars">⭐⭐⭐⭐☆</div>
@@ -202,7 +198,7 @@
       </div>
 
       <div class="product">
-        <img src="img6.jpg" alt="Smart Camera">
+        <img src="/home.html/images/Headphones.png" alt="Smart Camera">
         <div class="details">
           <h4>Smart Camera</h4>
           <div class="stars">⭐⭐⭐⭐⭐</div>
@@ -210,7 +206,7 @@
         </div>
       </div>
 
-      <button class="view-more">View More</button>
+
     </aside>
 
     <!-- MAIN CONTENT -->
@@ -251,9 +247,6 @@
         HPB12, A12, A12EX, A12-XJ, A1712, B-8315, BD1204L, BD-1204L, BPT1047, FS120B, FS120BX, FSB12.</p>
       </div>
 
-      <div class="reply">
-        <h3>Leave a Reply</h3>
-      </div>
     </main>
   </div>
 
@@ -306,7 +299,164 @@
 
 
 
+<section class="related-products">
+    <h2 class="section-title">Related Products</h2>
+    <p class="section-desc">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, asperiores ducimus sint quos tempore officia similique quia? Libero, pariatur consectetur?
+    </p>
 
+    <div class="arrows">
+      <button class="arrow-btn">&#10094;</button>
+      <button class="arrow-btn">&#10095;</button>
+    </div>
+
+    <div class="products">
+      <div class="product-card">
+        <div class="img-box">
+          <img src="/home.html/images/Small Phone.png" alt="Product 1">
+          <span class="new-tag">New</span>
+        </div>
+        <p class="category">SmartPhone</p>
+        <h3>Apple iPad Mini<br>G2356</h3>
+        <div class="price">
+          <span class="old">$1,250.00</span>
+          <span class="new">$1,050.00</span>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="img-box">
+          <img src="/home.html/images/Small Phone.png" alt="Product 2">
+          <span class="new-tag">New</span>
+        </div>
+        <p class="category">SmartPhone</p>
+        <h3>Apple iPad Mini<br>G2356</h3>
+        <div class="price">
+          <span class="old">$1,250.00</span>
+          <span class="new">$1,050.00</span>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="img-box">
+          <img src="/home.html/images/Small Phone.png" alt="Product 3">
+          <span class="new-tag">New</span>
+        </div>
+        <p class="category">SmartPhone</p>
+        <h3>Apple iPad Mini<br>G2356</h3>
+        <div class="price">
+          <span class="old">$1,250.00</span>
+          <span class="new">$1,050.00</span>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="img-box">
+          <img src="/home.html/images/Small Phone.png" alt="Product 4">
+          <span class="new-tag">New</span>
+        </div>
+        <p class="category">SmartPhone</p>
+        <h3>Apple iPad Mini<br>G2356</h3>
+        <div class="price">
+          <span class="old">$1,250.00</span>
+          <span class="new">$1,050.00</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+
+<footer class="footer">
+
+    <div class="footer-top">
+      <div class="footer-item">
+        <i class="fas fa-map-marker-alt"></i>
+        <div>
+          <h3>Address</h3>
+          <p>123 Street New York, USA</p>
+        </div>
+      </div>
+      <div class="footer-item">
+        <i class="fas fa-envelope"></i>
+        <div>
+          <h3>Mail Us</h3>
+          <p>info@example.com</p>
+        </div>
+      </div>
+      <div class="footer-item">
+        <i class="fas fa-phone"></i>
+        <div>
+          <h3>Telephone</h3>
+          <p>(+012) 3456 7890</p>
+        </div>
+      </div>
+      <div class="footer-item">
+        <i class="fas fa-fire"></i>
+        <div>
+          <h3>Yoursite@ex.com</h3>
+          <p>(+012) 3456 7890</p>
+        </div>
+      </div>
+    </div>
+
+<div class="footer-bottom">
+      <div class="footer-col">
+        <h4>Newsletter</h4>
+        <p>Dolor amet sit justo amet elitr clita ipsum elitr est. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="newsletter">
+          <input type="email" placeholder="Enter your email">
+          <button>SignUp</button>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Customer Service</h4>
+        <ul>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Returns</a></li>
+          <li><a href="#">Order History</a></li>
+          <li><a href="#">Site Map</a></li>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="#">My Account</a></li>
+          <li><a href="#">Unsubscribe Notification</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Information</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Delivery Information</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Warranty</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Seller Login</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Extras</h4>
+        <ul>
+          <li><a href="#">Brands</a></li>
+          <li><a href="#">Gift Vouchers</a></li>
+          <li><a href="#">Affiliates</a></li>
+          <li><a href="#">Wishlist</a></li>
+          <li><a href="#">Order History</a></li>
+          <li><a href="#">Track Your Order</a></li>
+          <li><a href="#">Track Your Order</a></li>
+        </ul>
+      </div>
+    </div>
+
+  </footer>
+
+  <div class="footer-copyright">
+    <p>© Your Site Name, All rights reserved.</p>
+    <p>Designed By <a href="#">HTML Codex</a>. Distributed By <a href="#">ThemeWagon</a></p>
+  </div>
+
+
+
+</section>
 </body>
 
 

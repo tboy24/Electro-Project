@@ -1,0 +1,128 @@
+body {
+    overflow-x: hidden;
+    margin-left: -1rem;
+}
+
+.footer {
+  background: #333;
+  color: #fff;
+  padding: 40px 20px;
+  width: 100%;
+  margin-bottom: -6rem;
+  margin-top: 6rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.footer-top {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  background: #444;
+  padding: 30px 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+.footer-item {
+  text-align: center;
+  color: #fff;
+}
+.footer-item i {
+  font-size: 28px;
+  color: #fff;
+  background: #f92400;
+  padding: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+.footer-item h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+.footer-item p {
+  margin: 5px 0 0;
+  color: #aaa;
+  font-size: 15px;
+}
+
+.footer-bottom {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  padding: 0 5rem;
+}
+.footer-col h4 {
+  color: #ff8000;
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.footer-col p {
+  color: #aaa;
+  font-size: 15px;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-col ul li {
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 18px;
+}
+.footer-col ul li::before {
+  content: "›";
+  position: absolute;
+  left: 0;
+  color: #aaa;
+}
+.footer-col ul li a {
+  text-decoration: none;
+  color: #aaa;
+  font-size: 15px;
+}
+.footer-col ul li a:hover {
+  color: #ff8000;
+}
+
+.newsletter {
+  display: flex;
+  background: white;
+  border-radius: 50px;
+  overflow: hidden;
+  max-width: 320px;
+}
+.newsletter input {
+  border: none;
+  padding: 12px 15px;
+  flex: 1;
+  outline: none;
+  font-size: 15px;
+}
+.newsletter button {
+  background: #ff8000;
+  border: none;
+  color: white;
+  padding: 12px 25px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 0 50px 50px 0;
+}
+
+.footer-copyright {
+  background: #ff8000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  font-size: 14px;
+  margin-top: 90px;
+}
+.footer-copyright a {
+  color: #fff;
+  text-decoration: underline;
+}

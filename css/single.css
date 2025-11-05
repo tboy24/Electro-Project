@@ -34,6 +34,7 @@ body {
   border-radius: 6px;
   overflow: hidden;
   margin-bottom: 20px;
+  margin-left: 4rem;
 }
 
 .sidebar .search-box input {
@@ -66,6 +67,11 @@ body {
 h3 {
   margin: 15px 0 10px;
   font-size: 18px;
+  margin-left: 5rem;
+}
+
+.colors {
+  margin-right: 1rem;
 }
 
 .categories li,
@@ -76,6 +82,7 @@ h3 {
   align-items: center;
   gap: 8px;
   font-size: 15px;
+  margin-left: 5rem;
 }
 
 .categories li i {
@@ -172,9 +179,9 @@ h3 {
 }
 
 .stars i {
-  color: red;
   font-size: 16px;
   margin-right: 3px;
+  color: #f92400;
 }
 
 .share-buttons {
@@ -330,10 +337,11 @@ h3 {
   font-weight: bold;
 }
 
-.stars i {
+.text-secondary i {
   color: red;
   font-size: 16px;
   margin-right: 3px;
+  color: #f92400;
 }
 
 .share-buttons {
@@ -434,7 +442,7 @@ body {
 
 .sidebar h2 {
   font-size: 20px;
-  margin-bottom: 15px;
+  margin-left: 7.5rem;
 }
 
 .product {
@@ -442,7 +450,7 @@ body {
   align-items: center;
   gap: 10px;
   margin-bottom: 20px;
-  margin-left: auto3;
+  margin-left: 5rem;
 }
 
 .product img {
@@ -456,9 +464,9 @@ body {
   font-weight: 600;
 }
 
-.stars {
+.text-secondary {
   font-size: 14px;
-  color: red;
+  color: #f92400;
 }
 
 .price {
@@ -483,9 +491,9 @@ body {
   border-radius: 25px;
   cursor: pointer;
   margin-top: 10px;
+  margin-left: 3rem;
 }
 
-/* MAIN CONTENT */
 .main-content {
   flex: 1;
 }
@@ -504,16 +512,25 @@ body {
   font-size: 16px;
   padding: 10px 0;
   cursor: pointer;
+  color: #f28b00;
 }
 
 .tabs .active {
-  color: orange;
-  border-bottom: 2px solid orange;
+  color: black;
+  border-bottom: 2px solid #f92400;
 }
 
 .description p {
   margin-bottom: 15px;
   line-height: 1.6;
+}
+
+.description {
+  color: #6c757d;
+}
+
+.bold-description {
+  color: #6c757d;
 }
 
 .reply {
@@ -559,14 +576,14 @@ body {
 .sale-card {
   position: relative;
   border-radius: 10px;
-  overflow: hidden;
+  margin-left: 5rem;
 }
 
 .sale-card img {
   width: 100%;
   height: auto;
   display: block;
-  
+  margin-left: 0.5rem;
 }
 
 .sale-text {
@@ -575,12 +592,14 @@ body {
   left: 20px;
   color: red;
   text-align: center;
+  
 }
 
 .sale-text h2 {
   font-size: 30px;
   color: orange;
   font-weight: 700;
+  margin-left: 1rem;
 }
 
 .sale-text p {
@@ -663,12 +682,23 @@ textarea {
 
 label {
   font-size: 15px;
-  color: #444;
+  color: #919191;
 }
 
 .stars {
-  color: #f39c12;
+  color: #919191;
   font-size: 20px;
+}
+
+.post-btn {
+  background: #f18c00;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 20px 1.5rem;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 16px;
 }
 
 body {
@@ -682,6 +712,7 @@ body {
 .related-products {
   text-align: center;
   padding: 70px 60px;
+  margin-left: -3rem;
 }
 
 .section-title {
